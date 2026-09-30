@@ -14,8 +14,7 @@ directamente a `POST /api/v1/extract`.
 
 ## Instalar y construir
 
-Descarga o copia la carpeta completa `extrator-service-vegeta` a la PC del
-profesor. Abre PowerShell en esa carpeta. Por ejemplo:
+Descarga o copia la carpeta completa `extrator-service-vegeta`. Abre PowerShell en esa carpeta. Por ejemplo:
 
 ```powershell
 Set-Location "D:\ruta\imagen-vegeta\extrator-service-vegeta"
@@ -35,7 +34,7 @@ Para preparar una PC sin Internet, en una maquina con Docker construye y exporta
 ```
 
 Copia `extractor-vegeta-image.tar` junto con esta carpeta al equipo del
-profesor y carga la imagen alli:
+que se desea a ejecutar y carga la imagen alli:
 
 ```powershell
 docker load -i .\extractor-vegeta-image.tar
